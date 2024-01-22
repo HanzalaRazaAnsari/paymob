@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844A3DED2B4FFBD600012AA5 /* InitialToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A3DEC2B4FFBD600012AA5 /* InitialToken.swift */; };
+		844A3DEF2B4FFFCD00012AA5 /* OrderRegistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A3DEE2B4FFFCD00012AA5 /* OrderRegistrationRequest.swift */; };
+		844A3DF12B50009F00012AA5 /* PaymentKeyPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A3DF02B50009F00012AA5 /* PaymentKeyPayload.swift */; };
+		8483CC382B4D433C00F4CF27 /* Pods_Paymob_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483CC372B4D433C00F4CF27 /* Pods_Paymob_Demo.framework */; };
+		8483CC392B4D433C00F4CF27 /* Pods_Paymob_Demo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8483CC372B4D433C00F4CF27 /* Pods_Paymob_Demo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84C17D192B4D348C00C336D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C17D182B4D348C00C336D4 /* AppDelegate.swift */; };
+		84C17D1B2B4D348C00C336D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C17D1A2B4D348C00C336D4 /* SceneDelegate.swift */; };
+		84C17D1D2B4D348C00C336D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C17D1C2B4D348C00C336D4 /* ViewController.swift */; };
+		84C17D202B4D348C00C336D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C17D1E2B4D348C00C336D4 /* Main.storyboard */; };
+		84C17D222B4D348E00C336D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C17D212B4D348E00C336D4 /* Assets.xcassets */; };
+		84C17D252B4D348E00C336D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C17D232B4D348E00C336D4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84C17D2E2B4D36A200C336D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8483CC392B4D433C00F4CF27 /* Pods_Paymob_Demo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2AA1AFE9CE309530B1BE72A2 /* Pods_Paymob_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paymob_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B651BBCFEE76E076531359D /* Pods-Paymob_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paymob_Demo.release.xcconfig"; path = "Target Support Files/Pods-Paymob_Demo/Pods-Paymob_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		844A3DEC2B4FFBD600012AA5 /* InitialToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialToken.swift; sourceTree = "<group>"; };
+		844A3DEE2B4FFFCD00012AA5 /* OrderRegistrationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRegistrationRequest.swift; sourceTree = "<group>"; };
+		844A3DF02B50009F00012AA5 /* PaymentKeyPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentKeyPayload.swift; sourceTree = "<group>"; };
+		8483CC372B4D433C00F4CF27 /* Pods_Paymob_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Paymob_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C17D152B4D348C00C336D4 /* Paymob_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paymob_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C17D182B4D348C00C336D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C17D1A2B4D348C00C336D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84C17D1C2B4D348C00C336D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C17D1F2B4D348C00C336D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C17D212B4D348E00C336D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C17D242B4D348E00C336D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C17D262B4D348E00C336D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD4F9A2B4D37DC000FAAD2 /* AcceptSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcceptSDK.xcframework; path = Pods/AcceptCardSDK/AcceptCardSDK/Classes/AcceptSDK.xcframework; sourceTree = "<group>"; };
+		BC0B6BAA3D49712EEDE04056 /* Pods-Paymob_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paymob_Demo.debug.xcconfig"; path = "Target Support Files/Pods-Paymob_Demo/Pods-Paymob_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C17D122B4D348C00C336D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483CC382B4D433C00F4CF27 /* Pods_Paymob_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061B613D6FC481D99129664B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B6BAA3D49712EEDE04056 /* Pods-Paymob_Demo.debug.xcconfig */,
+				4B651BBCFEE76E076531359D /* Pods-Paymob_Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		844A3DEB2B4FFBC000012AA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				844A3DEC2B4FFBD600012AA5 /* InitialToken.swift */,
+				844A3DEE2B4FFFCD00012AA5 /* OrderRegistrationRequest.swift */,
+				844A3DF02B50009F00012AA5 /* PaymentKeyPayload.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C17D0C2B4D348C00C336D4 = {
+			isa = PBXGroup;
+			children = (
+				844A3DEB2B4FFBC000012AA5 /* Model */,
+				84C17D172B4D348C00C336D4 /* Paymob_Demo */,
+				84C17D162B4D348C00C336D4 /* Products */,
+				061B613D6FC481D99129664B /* Pods */,
+				B931FDE1015EC887F0FDC47F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84C17D162B4D348C00C336D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C17D152B4D348C00C336D4 /* Paymob_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C17D172B4D348C00C336D4 /* Paymob_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84C17D182B4D348C00C336D4 /* AppDelegate.swift */,
+				84C17D1A2B4D348C00C336D4 /* SceneDelegate.swift */,
+				84C17D1C2B4D348C00C336D4 /* ViewController.swift */,
+				84C17D1E2B4D348C00C336D4 /* Main.storyboard */,
+				84C17D212B4D348E00C336D4 /* Assets.xcassets */,
+				84C17D232B4D348E00C336D4 /* LaunchScreen.storyboard */,
+				84C17D262B4D348E00C336D4 /* Info.plist */,
+			);
+			path = Paymob_Demo;
+			sourceTree = "<group>";
+		};
+		B931FDE1015EC887F0FDC47F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8483CC372B4D433C00F4CF27 /* Pods_Paymob_Demo.framework */,
+				84FD4F9A2B4D37DC000FAAD2 /* AcceptSDK.xcframework */,
+				2AA1AFE9CE309530B1BE72A2 /* Pods_Paymob_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C17D142B4D348C00C336D4 /* Paymob_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C17D292B4D348E00C336D4 /* Build configuration list for PBXNativeTarget "Paymob_Demo" */;
+			buildPhases = (
+				C23E5A7B0A2C94C7EDDD2B8B /* [CP] Check Pods Manifest.lock */,
+				84C17D112B4D348C00C336D4 /* Sources */,
+				84C17D122B4D348C00C336D4 /* Frameworks */,
+				84C17D132B4D348C00C336D4 /* Resources */,
+				84C17D2E2B4D36A200C336D4 /* Embed Frameworks */,
+				FF79CE1228A2642236AB0569 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paymob_Demo;
+			productName = Paymob_Demo;
+			productReference = 84C17D152B4D348C00C336D4 /* Paymob_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C17D0D2B4D348C00C336D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					84C17D142B4D348C00C336D4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84C17D102B4D348C00C336D4 /* Build configuration list for PBXProject "Paymob_Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C17D0C2B4D348C00C336D4;
+			productRefGroup = 84C17D162B4D348C00C336D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C17D142B4D348C00C336D4 /* Paymob_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C17D132B4D348C00C336D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C17D252B4D348E00C336D4 /* LaunchScreen.storyboard in Resources */,
+				84C17D222B4D348E00C336D4 /* Assets.xcassets in Resources */,
+				84C17D202B4D348C00C336D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C23E5A7B0A2C94C7EDDD2B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paymob_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF79CE1228A2642236AB0569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Paymob_Demo/Pods-Paymob_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Paymob_Demo/Pods-Paymob_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Paymob_Demo/Pods-Paymob_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C17D112B4D348C00C336D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844A3DED2B4FFBD600012AA5 /* InitialToken.swift in Sources */,
+				844A3DEF2B4FFFCD00012AA5 /* OrderRegistrationRequest.swift in Sources */,
+				84C17D1D2B4D348C00C336D4 /* ViewController.swift in Sources */,
+				84C17D192B4D348C00C336D4 /* AppDelegate.swift in Sources */,
+				84C17D1B2B4D348C00C336D4 /* SceneDelegate.swift in Sources */,
+				844A3DF12B50009F00012AA5 /* PaymentKeyPayload.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C17D1E2B4D348C00C336D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C17D1F2B4D348C00C336D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C17D232B4D348E00C336D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C17D242B4D348E00C336D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C17D272B4D348E00C336D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C17D282B4D348E00C336D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C17D2A2B4D348E00C336D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0B6BAA3D49712EEDE04056 /* Pods-Paymob_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DZAMS9JRZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Paymob_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftUI.com.AppFrameWork.Paymob-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C17D2B2B4D348E00C336D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B651BBCFEE76E076531359D /* Pods-Paymob_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DZAMS9JRZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Paymob_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftUI.com.AppFrameWork.Paymob-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C17D102B4D348C00C336D4 /* Build configuration list for PBXProject "Paymob_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C17D272B4D348E00C336D4 /* Debug */,
+				84C17D282B4D348E00C336D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C17D292B4D348E00C336D4 /* Build configuration list for PBXNativeTarget "Paymob_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C17D2A2B4D348E00C336D4 /* Debug */,
+				84C17D2B2B4D348E00C336D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C17D0D2B4D348C00C336D4 /* Project object */;
+}

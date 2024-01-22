@@ -1,0 +1,20 @@
+PODS:
+  - AcceptCardSDK (5.6.0)
+  - Alamofire (5.8.1)
+
+DEPENDENCIES:
+  - AcceptCardSDK
+  - Alamofire
+
+SPEC REPOS:
+  trunk:
+    - AcceptCardSDK
+    - Alamofire
+
+SPEC CHECKSUMS:
+  AcceptCardSDK: e58ae71e6d4a817043da508706164411921ce638
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+
+PODFILE CHECKSUM: a2a0a50c6a2199dbd29b091e3903d3595ea66898
+
+COCOAPODS: 1.14.3

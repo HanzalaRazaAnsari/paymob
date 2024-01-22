@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "47841801-8211-4CF5-B127-E0DB652ADE21"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E71B9D3C-1E9D-4365-A46C-86865D22B2A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paymob_Demo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "initialTokenRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E71B9D3C-1E9D-4365-A46C-86865D22B2A5 - a78783ee80c6534f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Paymob_Demo.ViewController.initialTokenRequest() -&gt; ()"
+                  moduleName = "Paymob_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedshiraz/Downloads/paymob-main/Paymob_Demo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "E71B9D3C-1E9D-4365-A46C-86865D22B2A5 - f89612c5e2a1b133"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Paymob_Demo.InitialTokenResp, Alamofire.AFError&gt;) -&gt; () in Paymob_Demo.ViewController.initialTokenRequest() -&gt; ()"
+                  moduleName = "Paymob_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedshiraz/Downloads/paymob-main/Paymob_Demo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "794EC872-9153-48F7-8C6B-882E72304022"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paymob_Demo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "orderRegistration()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "794EC872-9153-48F7-8C6B-882E72304022 - fb66fc55d96677cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Paymob_Demo.OrderRegistrationRequest, Alamofire.AFError&gt;) -&gt; () in Paymob_Demo.ViewController.orderRegistration() -&gt; ()"
+                  moduleName = "Paymob_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedshiraz/Downloads/paymob-main/Paymob_Demo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "794EC872-9153-48F7-8C6B-882E72304022 - fb66fc55d96677cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Paymob_Demo.OrderRegistrationRequest, Alamofire.AFError&gt;) -&gt; () in Paymob_Demo.ViewController.orderRegistration() -&gt; ()"
+                  moduleName = "Paymob_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedshiraz/Downloads/paymob-main/Paymob_Demo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05827972-069B-49E0-A2DE-8BF686E79104"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paymob_Demo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "getPaymentKey()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAB7A90C-78BB-465C-BC8E-CD1FA97A7C2C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paymob_Demo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "orderRegistration()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAB7A90C-78BB-465C-BC8E-CD1FA97A7C2C - fb66fc55d96789fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Paymob_Demo.OrderRegistrationRequest, Alamofire.AFError&gt;) -&gt; () in Paymob_Demo.ViewController.orderRegistration() -&gt; ()"
+                  moduleName = "Paymob_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedshiraz/Downloads/paymob-main/Paymob_Demo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "2472">
+               </Location>
+               <Location
+                  uuid = "EAB7A90C-78BB-465C-BC8E-CD1FA97A7C2C - fb66fc55d96789fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Paymob_Demo.OrderRegistrationRequest, Alamofire.AFError&gt;) -&gt; () in Paymob_Demo.ViewController.orderRegistration() -&gt; ()"
+                  moduleName = "Paymob_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedshiraz/Downloads/paymob-main/Paymob_Demo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "1312">
+               </Location>
+               <Location
+                  uuid = "EAB7A90C-78BB-465C-BC8E-CD1FA97A7C2C - fb66fc55d96789fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Paymob_Demo.OrderRegistrationRequest, Alamofire.AFError&gt;) -&gt; () in Paymob_Demo.ViewController.orderRegistration() -&gt; ()"
+                  moduleName = "Paymob_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedshiraz/Downloads/paymob-main/Paymob_Demo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "1344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
